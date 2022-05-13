@@ -1,0 +1,275 @@
+/* Audio Player Styles
+================================================== */
+
+audio {
+    display: none;
+}
+
+#audiowrap,
+#plwrap {
+    margin: 0 auto;
+}
+
+#tracks {
+    font-size: 0;
+    position: relative;
+    text-align: center;
+}
+
+#nowPlay {
+    display: block;
+    font-size: 0;
+}
+
+#nowPlay span {
+    display: inline-block;
+    font-size: 1.05rem;
+    vertical-align: top;
+}
+
+#nowPlay span#npAction {
+    padding: 21px;
+    width: 30%;
+}
+
+#nowPlay span#npTitle {
+    padding: 21px;
+    text-align: right;
+    width: 70%;
+}
+
+#plList > div:not(.text-danger) {
+    position: relative;
+    height:102px;
+}
+
+#plList .tk {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    border-width: 2px !important;
+}
+
+
+.trackSelect .track-box .tk:not(.plSel) {
+    transition: ease .2s all;
+    filter: blur(3px);
+    pointer-events: none;
+}
+
+
+#plList .tk.plSel {
+    position: absolute;
+    z-index: 10000;
+    background-color: rgb(242, 242, 242) !important;
+    width: calc(100% - 12px);
+    padding-bottom: .25rem !important;
+    box-shadow: 0px 0px 10px rgb(232 232 232) !important;
+}
+
+
+#plList > div:nth-child(odd) .tk.plSel{
+    margin-right:12px;
+}
+
+#plList > div:nth-child(even) .tk.plSel{
+    margin-left:12px;
+}
+
+@media (max-width: 992px){
+    #plList > div .tk.plSel {
+        width: calc(100% - 0px) !important;
+    }
+
+    #plList > div{
+        padding-right:0px !important;
+        padding-left:0px !important;
+    }
+
+    #plList > div .tk.plSel{
+        margin-left:0px !important;
+        margin-right:0px !important;
+    }
+}
+
+#plList > div .tk:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.plItem {
+    position: relative;
+    height: 77px;
+}
+
+.plSel .plItem, .plSel .plPrice {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.plTitle {
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: calc(100% - 290px);
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 77px;
+}
+
+.plNum {
+    padding: 0px 15px;
+    float: left !important;
+    line-height: 77px;
+    width:60px;
+}
+.plNum i{
+    font-size:35px;
+    color: rgba(0,0,0,.2);
+}
+.plPrice {
+    height: 77px;
+    width: 150px;
+    line-height: 77px;
+    font-size: 20px;
+}
+
+.plPrice.discounted {
+    height: 77px;
+    line-height: 23px;
+    font-size: 20px;
+}
+
+.plPrice .off {
+    font-size: 13px;
+}
+
+.plPrice del {
+    font-size: 15px;
+}
+
+.plLength, .plPrice {
+    float: right;
+}
+
+.plLength{
+    height: 77px;
+    width:77px;
+    text-align: center;
+}
+.plLength i{
+    font-size:23px;
+}
+.plSel {
+    position: absolute;
+}
+
+.plSel .bi-play-circle:before {
+    content: "\f4c2";
+}
+
+.plSel,
+.plSel:hover {
+    background-color: rgba(0, 0, 0, .1) !important;
+    cursor: default !important;
+}
+
+#tracks a {
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    height: 40px;
+    line-height: .2;
+    margin: 0 5px 30px;
+    padding: 12px;
+    text-decoration: none;
+    transition: background .3s ease;
+
+}
+
+#trackmainwrap .plSel .plItem .plLength {
+    display: none !important;
+}
+
+#tracks a:not(.btn) {
+    background: red;
+}
+
+#tracks a:hover,
+#tracks a:active {
+    background-color: rgba(0, 0, 0, .1);
+    color: #fff;
+}
+
+#tracks a::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+/* Plyr Overrides
+================================================== */
+
+.plyr--audio .plyr__controls {
+    background-color: transparent !important;
+    border: none;
+    color: #fff;
+    font-family: "Source Sans Pro", arial, sans-serif;
+    padding: 15px 0px !important;
+    width: 100%;
+    height: 100%;
+}
+
+a.plyr__controls__item.plyr__control:hover,
+.plyr--audio .plyr__controls button:hover,
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr__play-large {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.plyr__progress--played,
+.plyr__volume--display {
+    color: rgba(0, 0, 0, .1);
+}
+
+.plyr--audio .plyr__progress--buffer,
+.plyr--audio .plyr__volume--display {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.plyr--audio .plyr__progress--buffer {
+    color: rgba(0, 0, 0, .1);
+}
+
+.plyr--full-ui input[type="range"] {
+    width: calc(100% - 39px);
+}
+
+.plyr__controls .plyr__controls__item.plyr__time {
+    font-size: 14px !important;
+    margin-left: 7px;
+}
+
+.plyr--video {
+    border-radius: .25rem !important;
+}
+
+/* Media Queries
+================================================== */
+
+@media only screen and (max-width: 600px) {
+    #nowPlay span#npAction {
+        display: none;
+    }
+
+    #nowPlay span#npTitle {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}

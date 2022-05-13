@@ -1,0 +1,132 @@
+body.dark .navbar,
+body.dark .bg-white,
+body.dark .card,
+body.dark .cartBox .bgCart,
+body.dark .cartBox .card-body,
+body.dark .morePackageBtn,
+body.dark .moreTracksBtn,
+body.dark .homePageTracksBox,
+body.dark .subscribe-box,
+body.dark .light-box-shadow.bg-white,
+body.dark .nav-tabs .nav-link.active,
+body.dark .owl-3{
+    box-shadow: unset !important;
+    opacity: 1 !important;
+    --bs-bg-opacity: 1 !important;
+    background:#181A1C !important;
+}
+
+body.dark .nav-tabs .nav-link.active{
+    border-top-color:rgb(108 117 125) !important;
+    border-left-color:rgb(108 117 125) !important;
+    border-right-color:rgb(108 117 125) !important;
+    border-bottom-color:#181A1C !important;
+}
+
+body.dark .navbar .navbar-brand{
+    color: #dbdbdb !important;
+}
+
+body.dark,
+body.dark #sortTrackMenuBtn,
+body.dark .card,
+body.dark .card .bgCart,
+body.dark .cartBox .card-body ul li h6,
+body.dark .nav-link,
+body.dark  .dropdown-menu .dropdown-item{
+    color: #dbdbdb !important;
+}
+
+body.dark .cartBox .bgCart i{
+    color: #444444 !important;
+}
+body.dark .cartBox .card-body ul li .bi-play-circle,
+body.dark del{
+    color: #9c9c9c !important;
+}
+
+body.dark .nav-link:hover,
+body.dark #plList .tk .plNum i,
+body.dark .form-control,
+body.dark .subscribe-box h2,
+body.dark table,
+body.dark .subscribe-box h5{
+    color: #cdcdcd !important;
+}
+
+body.dark  .dropdown-menu .dropdown-item:hover,
+body.dark  .dropdown-menu .dropdown-item:active,
+body.dark  .dropdown-menu .dropdown-item:focus,
+body.dark  .dropdown-menu a.bg-light{
+    background: #272a2d !important;
+}
+
+body.dark .table-hover>tbody>tr:hover{
+    --bs-table-accent-bg: #272a2d !important;
+    color: #cdcdcd !important;
+}
+
+body.dark .discounts .item,
+body.dark .page-item.active .page-link,
+body.dark :not(del).badge{
+    color:rgb(33,37,41) !important;
+}
+
+body.dark,
+body.dark .table-light tr td,
+body.dark .homePageSlider,
+body.dark #plList .tk.plSel,
+body.dark #plList .tk.plSel:hover,
+body.dark .bg-light,
+body.dark .page-item:not(.active) .page-link,
+body.dark .homePagevideoBox,
+body.dark footer *,
+body.dark .btnCartBox,
+body.dark #sortTrackMenuBtn,
+body.dark .navbar-nav .btn,
+body.dark .dropdown-menu,
+body.dark .catBtnTlist,
+body.dark .form-control,
+body.dark .nav-tabs .nav-item.show .nav-link,
+body.dark .social-network a,
+body.dark .owl-prev,
+body.dark .owl-next,
+body.dark .plPrice {
+    background:rgb(33,37,41) !important;
+}
+
+
+body.dark .light-box-shadow,
+body.dark #plList .tk.plSel,
+body.dark .packItem{
+    box-shadow: unset !important;
+}
+body.dark .packItem .details{
+    background:rgba(24,26,28,.8) !important;
+    box-shadow: 0px 0px 54px 54px rgba(24,26,28,.8) !important;
+}
+
+body.dark .catBtnTlist,
+body.dark .owl-prev,
+body.dark .owl-next,
+body.dark .plPrice,
+body.dark .plLength,
+body.dark .tk
+{
+    border-color:rgb(33,37,41) !important;
+}
+
+body.dark #plList > div .tk:hover{
+    background-color: rgb(21, 23, 26) !important;
+}
+
+body.dark #trackplayerbox .border-bottom,
+body.dark .plSel .plItem,
+body.dark .plSel .plPrice,
+body.dark .page-item .page-link,
+body.dark .nav-tabs,
+body.dark .nav-tabs .nav-item.show .nav-link,
+body.dark .form-control{
+    border-color:rgb(108 117 125) !important;
+}
+

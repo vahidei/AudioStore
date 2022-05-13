@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80pt" height="82pt" viewBox="0 0 80 82" version="1.1">
+<defs>
+<image id="image28" width="11" height="121" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAB5CAIAAABgJEy7AAAABmJLR0QA/wD/AP+gvaeTAAAALElEQVRYhe3KMQ0AAAgEMcC/0JeBA3aS3nrtJHU29yYIgiAIgiAIgiAI4qFYVxEDqsmCCZ8AAAAASUVORK5CYII="/>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="11" height="121"  patternTransform="matrix(1,0,0,1,-1,-16)">
+  <use xlink:href="#image28"/>
+</pattern>
+<image id="image31" width="11" height="77" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAABNCAIAAAD/zwkAAAAABmJLR0QA/wD/AP+gvaeTAAAAJ0lEQVRIie3KMQEAAAjDMMC/0MnAAQZI36aT1NncmyAIgiAIgngiFueuA1IBNrDKAAAAAElFTkSuQmCC"/>
+<pattern id="pattern1" patternUnits="userSpaceOnUse" width="11" height="77"  patternTransform="matrix(1,0,0,1,12,17)">
+  <use xlink:href="#image31"/>
+</pattern>
+<image id="image34" width="11" height="68" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAABECAIAAADYwFjIAAAABmJLR0QA/wD/AP+gvaeTAAAAJklEQVRIiWN88eIFA17AhF96VMWoilEVoypGVYyqGFUxqmKIqgAA+P4DQPpmJooAAAAASUVORK5CYII="/>
+<pattern id="pattern2" patternUnits="userSpaceOnUse" width="11" height="68"  patternTransform="matrix(1,0,0,1,39,19)">
+  <use xlink:href="#image34"/>
+</pattern>
+<image id="image37" width="12" height="49" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAxCAIAAABh89/DAAAABmJLR0QA/wD/AP+gvaeTAAAAIklEQVQ4jWN88eIFAyHARFDFqKJRRaOKRhWNKhpVNPQVAQCe7gMa9BRN8QAAAABJRU5ErkJggg=="/>
+<pattern id="pattern3" patternUnits="userSpaceOnUse" width="12" height="49"  patternTransform="matrix(1,0,0,1,25,43)">
+  <use xlink:href="#image37"/>
+</pattern>
+<image id="image40" width="11" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAA2CAIAAACeKvQCAAAABmJLR0QA/wD/AP+gvaeTAAAAIUlEQVQ4jWN88eIFA17AhF96VMWoilEVoypGVYyqGOYqAAXfAyRAoB0eAAAAAElFTkSuQmCC"/>
+<pattern id="pattern4" patternUnits="userSpaceOnUse" width="11" height="54"  patternTransform="matrix(1,0,0,1,53,34)">
+  <use xlink:href="#image40"/>
+</pattern>
+<image id="image43" width="11" height="29" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAdCAIAAADzQQH3AAAABmJLR0QA/wD/AP+gvaeTAAAAG0lEQVQokWN88eIFA17AhF96VMWoilEVg1AFAOdiAvLdzqpGAAAAAElFTkSuQmCC"/>
+<pattern id="pattern5" patternUnits="userSpaceOnUse" width="11" height="29"  patternTransform="matrix(1,0,0,1,66,54)">
+  <use xlink:href="#image43"/>
+</pattern>
+</defs>
+<g id="surface24">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern0);" d="M -0.109375 104.09375 L 9.046875 104.09375 L 9.046875 -14.90625 L -0.109375 -14.90625 L -0.109375 104.09375 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern1);" d="M 13.25 92.8125 L 22.40625 92.8125 L 22.40625 17.984375 L 13.25 17.984375 L 13.25 92.8125 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern2);" d="M 39.765625 86.015625 L 48.921875 86.015625 L 48.921875 20.375 L 39.765625 20.375 L 39.765625 86.015625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern3);" d="M 26.40625 90.796875 L 35.5625 90.796875 L 35.5625 44.390625 L 26.40625 44.390625 L 26.40625 90.796875 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern4);" d="M 53.734375 86.703125 L 62.890625 86.703125 L 62.890625 34.859375 L 53.734375 34.859375 L 53.734375 86.703125 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern5);" d="M 67.109375 82.15625 L 76.265625 82.15625 L 76.265625 55.421875 L 67.109375 55.421875 L 67.109375 82.15625 "/>
+</g>
+</svg>
